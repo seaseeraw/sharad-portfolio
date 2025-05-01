@@ -1,8 +1,16 @@
 import React from 'react'
+import Navs from './components/navs'
+import ProjectsList from './components/projectslist'
+import skills from './components/skills'
+
 
 const App = () => {
   return (
-    <div>Hello this is sharad</div>
+    <>
+      <Navs />
+      <ProjectsList/>
+      <skills/>
+    </>
   )
 }
 
