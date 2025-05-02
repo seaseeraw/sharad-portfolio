@@ -33,12 +33,12 @@ const AboutMe = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.8 }}
             >
-              <h2>Hello, I'm [Your Name] 👋</h2>
+              <h2>Hello, I'm Sharad Pathak 👋</h2>
               <p>
-                I'm a web developer passionate about building fast, responsive, and user-friendly websites using modern tech like React and Node.js.
+                I'm a cybersecurity analyst.
               </p>
               <p>
-                I love open-source, exploring new tools, and solving real-world problems through code.
+                I love open-source, exploring new tools, and solving real-world problems through my skills.
               </p>
 
               <Button
