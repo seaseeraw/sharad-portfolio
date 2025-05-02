@@ -2,22 +2,22 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faReact,
-  faNodeJs,
-  faJs,
-  faHtml5,
-  faCss3Alt,
+  // faReact,
+  // faNodeJs,
+  // faJs,
+  // faHtml5,
+  // faCss3Alt,
   faGitAlt,
   faGithub
 } from '@fortawesome/free-brands-svg-icons';
 import '../App.css';
 
 const skills = [
-  { name: 'React', icon: faReact },
-  { name: 'Node.js', icon: faNodeJs },
-  { name: 'JavaScript', icon: faJs },
-  { name: 'HTML5', icon: faHtml5 },
-  { name: 'CSS3', icon: faCss3Alt },
+  // { name: 'React', icon: faReact },
+  // { name: 'Node.js', icon: faNodeJs },
+  // { name: 'JavaScript', icon: faJs },
+  // { name: 'HTML5', icon: faHtml5 },
+  // { name: 'CSS3', icon: faCss3Alt },
   { name: 'Git', icon: faGitAlt },
   { name: 'GitHub', icon: faGithub }
 ];
