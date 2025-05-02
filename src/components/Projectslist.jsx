@@ -1,5 +1,7 @@
+
+
 import React, { useEffect, useState } from 'react';
-import Projects from './projects';
+import Projects from './Projects'; 
 import { Container, Row, Col } from 'react-bootstrap';
 
 const ProjectsList = () => {
@@ -13,10 +15,11 @@ const ProjectsList = () => {
   }, []);
 
   return (
-    <Container>
+    <Container className="py-5">
+      <h2 className="text-center mb-4">🚀 My Projects</h2>
       <Row>
         {projects.map((project, index) => (
-          <Col key={index} md={4}>
+          <Col key={index} md={6} lg={4} className="mb-4">
             <Projects
               title={project.title}
               text={project.text}
