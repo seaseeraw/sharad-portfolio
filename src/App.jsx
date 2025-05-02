@@ -1,7 +1,8 @@
 import React from 'react'
 import Navs from './components/navs'
 import ProjectsList from './components/projectslist'
-import skills from './components/skills'
+import Skills from './components/skills'
+import AboutMe from './pages/home'
 
 
 const App = () => {
@@ -9,7 +10,8 @@ const App = () => {
     <>
       <Navs />
       <ProjectsList/>
-      <skills/>
+      <Skills/>
+      <AboutMe/>
     </>
   )
 }
