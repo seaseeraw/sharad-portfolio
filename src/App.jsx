@@ -3,10 +3,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navs from './components/navs';
-
-import Skills from './components/skills';
+import Connects from './components/connect'; // Capitalized correctly
 import AboutMe from './pages/home';
-
+import SkillsCertifications from './pages/SkillsCertification';
 const App = () => {
   return (
     <Router>
@@ -14,8 +13,8 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<AboutMe />} />
-        
-        <Route path="/skills" element={<Skills />} />
+        <Route path="/connects" element={<Connects />} />
+        <Route path="/skills" element={<SkillsCertifications />} />
       </Routes>
     </Router>
   );
