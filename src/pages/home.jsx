@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import Lottie from 'lottie-react';
-import developerAnimation from "../assets/developer.json";
+import developerAnimation from "/public/assets/developer.json";
 
 import '../App.css';
 
