@@ -5,6 +5,7 @@ import {
   faLinkedin,
   faMedium,
   faGithub,
+  faYoutube
 } from '@fortawesome/free-brands-svg-icons';
 import '../App.css';
 
@@ -12,7 +13,8 @@ const skillLinks = [
   
   { name: 'GitHub', icon: faGithub, url: 'https://github.com/SharadPathak1215' },
   { name: 'LinkedIn', icon: faLinkedin, url: 'http://www.linkedin.com/in/cybersecsharad' },
-  { name: 'Medium', icon: faMedium, url: 'https://medium.com/@pathaksp1215' }
+  { name: 'Medium', icon: faMedium, url: 'https://medium.com/@pathaksp1215' },
+  { name: 'Youtube', icon: faMedium, url: 'https://www.youtube.com/@sharadpathak4837' },
 ];
 
 const Connects = () => {
