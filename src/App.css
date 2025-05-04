@@ -1,5 +1,5 @@
 .text-primary:hover {
-    color: #61dafb !important; /* React blue */
+    color: #61dafb !important; 
     transform: scale(1.1);
     transition: 0.2s ease-in-out;
   }
@@ -22,7 +22,7 @@
   
   .skill-icon:hover {
     transform: scale(1.2);
-    color: #0d6efd; /* Bootstrap primary color */
+    color: #0d6efd; 
   }
   
   .skill-link {

@@ -11,7 +11,7 @@ const AboutMe = () => {
     <div style={{ background: '#f9f9f9', padding: '4rem 0' }}>
       <Container>
         <Row className="align-items-center">
-          {/* Lottie Animation or Image */}
+          
           <Col md={6}>
             <motion.div
               initial={{ scale: 0.8, opacity: 0 }}
@@ -26,7 +26,7 @@ const AboutMe = () => {
             </motion.div>
           </Col>
 
-          {/* Text Content */}
+         
           <Col md={6}>
             <motion.div
               initial={{ x: 100, opacity: 0 }}
@@ -35,15 +35,15 @@ const AboutMe = () => {
             >
               <h2>Hello, I'm Sharad Pathak 👋</h2>
               <p>
-                I'm a cybersecurity analyst.
+                I am a cybersecurity analyst.
               </p>
               <p>
-                I love open-source, exploring new tools, and solving real-world problems through my skills.
+              I am a passionate and detail-driven Cybersecurity Analyst with a strong foundation in threat detection, incident response, and digital forensics. With a post-graduate degree in Cybersecurity and Computer Forensics and hands-on experience analyzing real-world threats, I thrive on solving complex security challenges that protect businesses, data, and people. I specialize in identifying vulnerabilities before attackers do using tools like Kali Linux, Wazuh, Wireshark, and Splunk while crafting effective defense strategies to keep networks resilient and secure. Whether it's investigating a breach or building proactive security policies, I bring clarity, precision, and action to every mission. I am not just here to work  I am here to make a difference in an evolving cyber world. Let’s connect and collaborate on creating safer digital spaces. <br/>🛡️ Ready to secure your organization? Let’s talk
               </p>
 
               <Button
                 variant="primary"
-                href="/resume.pdf" // Place your resume in /public folder
+                href="/resume.pdf" 
                 target="_blank"
                 rel="noopener noreferrer"
               >
